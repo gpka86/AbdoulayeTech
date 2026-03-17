@@ -21,6 +21,7 @@ header nav ul {
     gap: 20px;
     padding: 20px;
     justify-content: space-around;
+    align-items: center;
 }
 .hero .Maphoto img {
     height: 600px;
@@ -36,4 +37,13 @@ footer{
 } 
 header .contact{
     margin-left: 20px;
+}
+.hero .description h1{
+    font-size: 40px;
+}
+.hero .description button{
+    padding: 10px 40px ;
+    border: none;
+    color: white;
+    background-color: #6C3BAA;
 }
