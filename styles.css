@@ -16,3 +16,20 @@ header nav ul {
     display: flex;
     gap: 30px;
 }
+.hero{
+    display:flex;
+    gap: 20px;
+    padding: 20px;
+    justify-content: space-around;
+}
+.hero .Maphoto img {
+    height: 300px;
+    width: 300px;
+    border-radius: 50px;
+}    
+footer{
+    text-align: center;
+    background-color: #6C3BAA;
+    padding: 40px;
+    color: black;
+} 
