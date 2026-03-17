@@ -14,7 +14,12 @@ header{
 header nav ul {
     list-style: none;
     display: flex;
-    gap: 30px;
+    gap: 30px; 
+
+}
+header nav ul li a{
+    color: grey;
+    text-decoration: none;
 }
 .hero{
     display:flex;
@@ -30,13 +35,21 @@ header nav ul {
 }    
 footer{
     text-align: center;
-    background-color: #6C3BAA;
+    background-color: whitesmoke;
     padding: 20px;
     color: black;
     
 } 
 header .contact{
     margin-left: 20px;
+    
+}
+header .contact a {
+    background-color: #6C3BAA;
+    text-decoration: none;
+    color: whitesmoke;
+    padding: 10px 30px;
+    border-radius: 10px;
 }
 .hero .description h1{
     font-size: 40px;
@@ -47,3 +60,4 @@ header .contact{
     color: white;
     background-color: #6C3BAA;
 }
+
