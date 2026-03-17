@@ -24,9 +24,10 @@ header nav ul li a{
 .hero{
     display:flex;
     gap: 20px;
-    padding: 20px;
-    justify-content: space-around;
+    padding: 20px 40px 0px 40px;
+    justify-content: center;
     align-items: center;
+    background-color: #d9c9ee;
 }
 .hero .Maphoto img {
     height: 600px;
@@ -35,9 +36,9 @@ header nav ul li a{
 }    
 footer{
     text-align: center;
-    background-color: whitesmoke;
+    background-color: black;
     padding: 20px;
-    color: black;
+    color: white;
     
 } 
 header .contact{
