@@ -61,4 +61,12 @@ header .contact a {
     color: white;
     background-color: #6C3BAA;
 }
+.Mesoffres{ 
+    padding: 20px 40px 0px 40px;
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color:#d9c9ee ;
+}
 
