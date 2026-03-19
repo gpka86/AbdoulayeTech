@@ -70,13 +70,17 @@ header .contact a {
 }
 .Mesprestations{
     display: flex;
-    justify-content: center;
+    justify-content:center;
     gap: 150;
-    }
-.Mesprestations .Prestations img{
+ }
+ .Mesprestations .Prestations img{
     width: 100px;
-    
-    justify-content: space-between;
+    display: flex;
+ }
+.Prestations{
+    display: flex;
+    gap: 30px;
 }
+
 
 
