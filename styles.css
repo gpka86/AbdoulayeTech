@@ -63,10 +63,20 @@ header .contact a {
 }
 .Mesoffres{ 
     padding: 20px 40px 0px 40px;
-    
     display: flex;
     justify-content: center;
     align-items: center;
     background-color:#d9c9ee ;
 }
+.Mesprestations{
+    display: flex;
+    justify-content: center;
+    gap: 150;
+    }
+.Mesprestations .Prestations img{
+    width: 100px;
+    
+    justify-content: space-between;
+}
+
 
