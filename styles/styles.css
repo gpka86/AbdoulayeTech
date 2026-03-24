@@ -105,6 +105,8 @@ header .contact a {
     background-color: #0b0a0a;
     padding: 40px;
     gap: 50px;
+    color: #c0c0c0;
+    justify-content: space-around;
     
 }
 .Nosproduits .Aproposdenosproduits img{
@@ -115,6 +117,9 @@ header .contact a {
 }  
  .Apropos ul {
     list-style: none;  
+    background-color: #d9c9ee;
+    color: black;
+    border-radius: 20px 40px 50px 10px;
 } 
 .Apropos ul li {
     margin-bottom: 10px;
