@@ -74,29 +74,31 @@ header .contact a {
 }
 
 .Mesoffres {
-    padding: 20px 40px 0px 40px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    background-color: #d9c9ee;
+    padding: 20px ;
+    text-align: center;
+    background-color: whitesmoke;
 }
 
-.Mesprestations {
+/*.Mesprestations {
     display: flex;
     justify-content: center;
     gap: 150;
-    background-color: #d9c9ee;
+    background-color: whitesmoke; 
     
+}*/
+
+.Mesoffres .Prestations img {
+    width: 300px; 
+}
+.Mesoffres .Prestations .logo1, .logo2, .logo3{
+    padding: 0px 40px; 
 }
 
-.Mesprestations .Prestations img {
-    width: 100px;
-    display: flex;
-}
-
-.Prestations {
+.Mesoffres .Prestations {
     display: flex;
     gap: 30px;
+    justify-content: center;
+    align-items: center;
 }
 .Nosproduits{
     display: flex;
