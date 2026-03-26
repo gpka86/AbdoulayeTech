@@ -4,6 +4,7 @@ body {
     margin: 0;
     padding: 0;
     font-family: Montserrat;
+    
 }
 
 header {
@@ -36,10 +37,11 @@ header nav ul li a {
 }
 
 .hero .Maphoto img {
-    height: 600px;
-    width: 600px;
+    height: auto;
     border-radius: 50px;
+    max-width: 100%;
 }
+/*width 600 px height: 600px; */
 
 footer {
     text-align: center;
@@ -88,7 +90,8 @@ header .contact a {
 }*/
 
 .Mesoffres .Prestations img {
-    width: 300px; 
+    max-width: 100%;
+    height: auto;
 }
 .Mesoffres .Prestations .logo1, .logo2, .logo3{
     padding: 0px 40px; 
@@ -112,8 +115,8 @@ header .contact a {
     
 }
 .Nosproduits .Aproposdenosproduits img{
-    height: 400px;
-    width: 400px;
+    height: auto;
+    max-width: 100% ;
     border-radius: 50px;
     
 }  
