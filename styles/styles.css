@@ -13,6 +13,7 @@ header {
     display: flex;
     justify-content: center;
     align-items: center;
+    flex-wrap: wrap;
 }
 
 header nav ul {
@@ -77,8 +78,11 @@ header .contact a {
 
 .Mesoffres {
     padding: 20px ;
-    text-align: center;
     background-color: whitesmoke;
+    display: flex;
+    align-items: center; 
+    justify-content: space-between; 
+    flex-wrap: wrap;
 }
 
 /*.Mesprestations {
@@ -92,16 +96,17 @@ header .contact a {
 .Mesoffres .Prestations img {
     max-width: 100%;
     height: auto;
+    width: 100px;
 }
 .Mesoffres .Prestations .logo1, .logo2, .logo3{
     padding: 0px 40px; 
 }
 
-.Mesoffres .Prestations {
+.Mesoffres .Prestations { 
     display: flex;
-    gap: 30px;
     justify-content: center;
-    align-items: center;
+    text-align: center;
+    flex-wrap: wrap;
 }
 .Nosproduits{
     display: flex;
@@ -112,6 +117,7 @@ header .contact a {
     gap: 50px;
     color: #c0c0c0;
     justify-content: space-around;
+    flex-wrap: wrap;
     
 }
 .Nosproduits .Aproposdenosproduits img{
