@@ -5,4 +5,5 @@ Landing page moderne et professionnelle pour promouvoir AbdoulayeTech, qui est u
 ## Technologies utilisées 
 
 - HTML
-- CSS
+- CSS 
+- JS 
